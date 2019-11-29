@@ -1,0 +1,27 @@
+.mat-button {
+  color: currentColor;
+  font-family: 'Arial';
+  font-size: 20px;
+}
+
+.mat-button:not([disabled]):hover {
+  background-color: yellow;
+  color: black;
+}
+
+.primaryToolbar {
+  display: block;
+  background-image: linear-gradient(to right, #614385 0%, #516395 51%, #614385 100%);
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.primaryToolbar {
+  background-position: right center;
+}
+
+.title{
+  font-size: 48px;
+  color:  blue;
+  font-family: 'Arial';
+}
